@@ -26,7 +26,6 @@ class buildEnvironment:
         return int(x), int(y)
     
     def dataStorage(self, data):
-        print(len(self.pointCloud))
         for element in data:
             point = self.AD2pos(element[0], element[1], element[2])
             if point not in self.pointCloud:
@@ -36,3 +35,7 @@ class buildEnvironment:
         self.infomap = self.map.copy()
         for point in self.pointCloud:
             self.infomap.set_at((int(point[0]), int(point[1])), (255, 0, 0))
+
+    def show_robot(self, position):
+        pygame.draw.circle(self.map, self.green, position, 5)
+        pygame.display.update()
