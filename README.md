@@ -7,6 +7,8 @@ Mouad Boumediene - Hobby Coding さんの動画を参考にしました。
 
 <!-- Youtube -->
 
+[![Youtube](https://img.youtube.com/vi/XRGAFaiSmmI/0.jpg)](https://youtu.be/XRGAFaiSmmI)
+
 ## Set up
 
 1. リポジトリをクローンします
